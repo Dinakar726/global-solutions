@@ -18,4 +18,15 @@
   <build>
     <finalName>global-solutions</finalName>
   </build>
+   <distributionManagement>
+		 <snapshotRepository>
+		    <id>nexus</id>
+		    <url>http://18.218.141.100:8081/repository/global-solutions-snapshot/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexus</id>
+		    <url>http://18.218.141.100:8081/repository/global-solutions-release/</url>
+		</repository>
+  	</distributionManagement>
 </project>
